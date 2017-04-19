@@ -21,6 +21,7 @@ public class Persona {
         this.Apellido2 = apellido2;
         this.Nacimiento = nacimiento;
         this.sexo = sexo;
+        //for updating purposes
     }
 
     public String getId() {

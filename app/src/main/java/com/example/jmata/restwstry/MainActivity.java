@@ -184,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             int method = 5;
+
             @Override
             public void onClick(View v) {
                 String numId = editId.getText().toString();
@@ -354,6 +355,7 @@ public class MainActivity extends AppCompatActivity {
                 //break;
             case 5:
                 //Update one record
+                //this case is for updating one record
                 try{
                     HttpClient client = new DefaultHttpClient();
                     HttpPost postrequest = new HttpPost(URL);

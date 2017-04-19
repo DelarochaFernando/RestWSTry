@@ -37,6 +37,7 @@
         android:text="Post_1Reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <!--for updating purposes-->
     <Button
         android:id="@+id/btnUpdate"
         android:text="Update a Record"
